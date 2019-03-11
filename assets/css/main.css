@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    background: #f8f8f8;
+    color:	#444a50 ;
+    height: 100vh;
+    line-height: 1.6;
+    overflow: hidden;
+  }
+
+  h2 {
+    color: #000000;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    size: 2rem;
+  }
+
+
+  th, td, p, input {
+    font:14px Verdana;
+}
+table, th, td 
+{
+    border: solid 1px #DDD;
+    border-collapse: collapse;
+    padding: 2px 3px;
+    text-align: center;
+}
+th {
+    font-weight:bold;
+}
+
+  
+  .container {
+    width: 100%;
+    height: 100%;
+    /* CSS Smooth Scroll */
+    overflow-y: scroll; 
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+  }
+  
+
+  .gpphoto1, .gpphoto3 {
+     opacity: 0.5;
+     }
+
+
+  .gpphotos {
+    width: 100%;
+     margin: 0;
+     padding: 0;
+     height: auto;
+     text-align: center;
+  }
+     .gpphotos h2 {
+       font-size: 1.5rem;
+     }
+  
+     
+  .lead {
+    font-size: 1rem;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 120px;
+    background:#fff;
+  }
+  
+  .navbar ul {
+    margin-top: 20px;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .navbar ul li {
+    margin: 0 1rem;
+    padding: 1rem;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #444a50 ;
+  }
+  
+  .navbar ul li a:hover {
+    color: black;
+  
+  }
+  
+  .nav-underline {
+    display: inline-block;
+    color: #b9d342;
+    text-decoration: none;
+}
+
+.nav-underline::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #b9d342;
+    transition: width .3s;
+}
+
+.nav-underline:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+
+
+
+  .gpphotos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+  }
+
+
+
+  
+  

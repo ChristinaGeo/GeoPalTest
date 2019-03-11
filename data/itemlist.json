@@ -1,0 +1,51 @@
+[
+	{
+		"code": "1",
+		"unit": "3",
+		"description": "Banana",
+		"costprice": 0.83,
+		"sellprice": 1.05
+	},
+	{
+		"code": "2",
+		"unit": "1",
+		"description": "Pear",
+		"costprice": 0.23,
+		"sellprice": 0.34
+	},
+	{
+		"code": "3",
+		"unit": "1",
+		"description": "Mixed Fruit Drops",
+		"costprice": 1.789,
+		"sellprice": 2.49
+	},
+	{
+		"code": "4",
+		"unit": "1",
+		"description": "Mug",
+		"costprice": 3.01,
+		"sellprice": 7.99
+	},
+	{
+		"code": "5",
+		"unit": "1",
+		"description": "Wooden Box",
+		"costprice": 12.01,
+		"sellprice": 19.993
+	},
+	{
+		"code": "6",
+		"unit": "1",
+		"description": "Apple",
+		"costprice": 0.087,
+		"sellprice": 0.21
+	},
+	{
+		"code": "7",
+		"unit": "5",
+		"description": "Pack of Tissues",
+		"costprice": 0.85,
+		"sellprice": 1.5
+	}
+]
